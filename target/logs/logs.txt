@@ -1,0 +1,301 @@
+Request method:	PUT
+Request URI:	https://fakestoreapi.com/carts/7
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 27 Jan 2025 07:56:29 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 8
+Connection: keep-alive
+access-control-allow-origin: *
+etag: W/"8-eE+TghVu0lqfC5QQKmjMzwJAx2U"
+x-powered-by: Express
+cf-cache-status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=bN1RimZIz1lX6e4LuRSr7yjFwxblrWRtEE4QnKbR9T2TFdabSMWfdHNcSw%2FOb%2B0IuShWFG0Waaes%2BLisMyMIBTGpGW9TdSlHDBj47yME5SeiKWnFsZIPRPED1jV4X%2F%2F%2FZ52e"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 90872fbe0962eb9d-SIN
+alt-svc: h3=":443"; ma=86400
+server-timing: cfL4;desc="?proto=TCP&rtt=278904&min_rtt=257148&rtt_var=86616&sent=6&recv=6&lost=0&retrans=0&sent_bytes=3128&recv_bytes=807&delivery_rate=12987&cwnd=252&unsent_bytes=0&cid=eb23ef5cbb41f8ec&ts=612&x=0"
+
+{
+    "id": 7
+}
+Request method:	DELETE
+Request URI:	https://fakestoreapi.com/carts/6
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 27 Jan 2025 08:22:48 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-origin: *
+etag: W/"86-J5ViySQfEeArCeSFoCYm7Fu5dlY"
+x-powered-by: Express
+cf-cache-status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=83mdrOX9f2k8BfqbJKrF3suHG8ir66QwAuwNo7HvGfqVm58KsYvFDOApnQowoFp1GgRPAaR85A0epO31C1hkcGH4YjJBG8Lig2w5FNLdh0zKWzcdS7xeT68lbsoCVWq32CKf"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 908756466a3b0f73-EWR
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+server-timing: cfL4;desc="?proto=TCP&rtt=242101&min_rtt=239934&rtt_var=94310&sent=6&recv=6&lost=0&retrans=0&sent_bytes=3128&recv_bytes=791&delivery_rate=14715&cwnd=252&unsent_bytes=0&cid=4dec6baff71dd89d&ts=593&x=0"
+
+{
+    "id": 6,
+    "userId": 4,
+    "date": "2020-03-01T00:00:00.000Z",
+    "products": [
+        {
+            "productId": 10,
+            "quantity": 2
+        },
+        {
+            "productId": 12,
+            "quantity": 3
+        }
+    ],
+    "__v": 0
+}
+Request method:	DELETE
+Request URI:	https://fakestoreapi.com/carts/6
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 27 Jan 2025 08:25:48 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-origin: *
+etag: W/"86-J5ViySQfEeArCeSFoCYm7Fu5dlY"
+x-powered-by: Express
+cf-cache-status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=Z9dgEB%2Fx3%2FeH24OWRaEeB0PSLd8vAkJGUCah0L1fDA516eo9BTR9mr3Lf2R83Q7dCQCqsgESfI0DZRKtUbG%2FAzj2ndgax0JARqyi1ZJxd2UcUpG3YLXvEOwQtEDb1iXwWQAb"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 90875aab49009760-FRA
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+server-timing: cfL4;desc="?proto=TCP&rtt=157900&min_rtt=155503&rtt_var=63108&sent=6&recv=6&lost=0&retrans=0&sent_bytes=3128&recv_bytes=791&delivery_rate=21673&cwnd=252&unsent_bytes=0&cid=267c6e1d2395218f&ts=447&x=0"
+
+{
+    "id": 6,
+    "userId": 4,
+    "date": "2020-03-01T00:00:00.000Z",
+    "products": [
+        {
+            "productId": 10,
+            "quantity": 2
+        },
+        {
+            "productId": 12,
+            "quantity": 3
+        }
+    ],
+    "__v": 0
+}
+Request method:	DELETE
+Request URI:	https://fakestoreapi.com/carts/6
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 27 Jan 2025 08:25:49 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-origin: *
+etag: W/"86-J5ViySQfEeArCeSFoCYm7Fu5dlY"
+x-powered-by: Express
+cf-cache-status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=zyn6rJJzaKfhIpfK8UQ6UrqZC8O99ZSWHhbH2DQd0SOXT1SDnRTBYbO433zn%2FVuCKIiO6%2B3PFw7W%2Bv51DlP88Cy54mPFZ3r5nEXTJ7wKBhEO%2BLL5I9jnF4FdtWLTOFMNuk91"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 90875ab149509273-FRA
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+server-timing: cfL4;desc="?proto=TCP&rtt=169479&min_rtt=165351&rtt_var=54319&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3128&recv_bytes=791&delivery_rate=19700&cwnd=252&unsent_bytes=0&cid=885f2d29b5b63b3c&ts=340&x=0"
+
+{
+    "id": 6,
+    "userId": 4,
+    "date": "2020-03-01T00:00:00.000Z",
+    "products": [
+        {
+            "productId": 10,
+            "quantity": 2
+        },
+        {
+            "productId": 12,
+            "quantity": 3
+        }
+    ],
+    "__v": 0
+}
+Request method:	DELETE
+Request URI:	https://fakestoreapi.com/carts/6
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 27 Jan 2025 08:26:25 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-origin: *
+etag: W/"86-J5ViySQfEeArCeSFoCYm7Fu5dlY"
+x-powered-by: Express
+cf-cache-status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=EIwI3AMecT5vkytWmNRZV8Q3SPKwt9KefM5a6EnVWTZLxkUjXIpZWQnF%2BZkkXMg%2F4q9bYMet5DwepZnkuZR5liXfBKK1Yx%2Bu6K6n4YPy%2BdR9S2eTFi%2BP%2FD2MhC2oUUOl2fna"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 90875b929c3e9079-FRA
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+server-timing: cfL4;desc="?proto=TCP&rtt=161002&min_rtt=147830&rtt_var=52048&sent=6&recv=6&lost=0&retrans=0&sent_bytes=3129&recv_bytes=791&delivery_rate=21350&cwnd=252&unsent_bytes=0&cid=0462ef8e18c20567&ts=405&x=0"
+
+{
+    "id": 6,
+    "userId": 4,
+    "date": "2020-03-01T00:00:00.000Z",
+    "products": [
+        {
+            "productId": 10,
+            "quantity": 2
+        },
+        {
+            "productId": 12,
+            "quantity": 3
+        }
+    ],
+    "__v": 0
+}
+Request method:	DELETE
+Request URI:	https://fakestoreapi.com/carts/6
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 27 Jan 2025 08:26:26 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-origin: *
+etag: W/"86-J5ViySQfEeArCeSFoCYm7Fu5dlY"
+x-powered-by: Express
+cf-cache-status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=YqYa7FIxM5H4ccxvXnmeKLNbAVDIVaAiF17H630c7wTc9WZzugdaHUB4HXTW2iv38SEwXXLb0Rt4qOzWmVToETKo%2F1B%2F54bYbBe5Rkz7Rh4Nr%2F3H3tC2NqnO3tXKsyixoCFN"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 90875b986869dc70-FRA
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+server-timing: cfL4;desc="?proto=TCP&rtt=174403&min_rtt=170250&rtt_var=55747&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3128&recv_bytes=791&delivery_rate=19190&cwnd=252&unsent_bytes=0&cid=2f6131b6e548a76f&ts=342&x=0"
+
+{
+    "id": 6,
+    "userId": 4,
+    "date": "2020-03-01T00:00:00.000Z",
+    "products": [
+        {
+            "productId": 10,
+            "quantity": 2
+        },
+        {
+            "productId": 12,
+            "quantity": 3
+        }
+    ],
+    "__v": 0
+}
+Request method:	DELETE
+Request URI:	https://fakestoreapi.com/carts/6
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 27 Jan 2025 08:35:17 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-origin: *
+etag: W/"86-J5ViySQfEeArCeSFoCYm7Fu5dlY"
+x-powered-by: Express
+cf-cache-status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=v3H4qQtzS7tAiX3pwAScD3Bf5ApUHmVAr7QhjMRV4%2FjmDoWj2Uh4CSI3kqsGD5IEfNCob58HXMfvZEnc6kQln3M11hlOgDNb2brtL00QaHaI%2BHJJ1OL4UU7eiI09yDJruEGS"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 908768920f522c1a-FRA
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+server-timing: cfL4;desc="?proto=TCP&rtt=158859&min_rtt=154825&rtt_var=50882&sent=6&recv=6&lost=0&retrans=0&sent_bytes=3129&recv_bytes=791&delivery_rate=21405&cwnd=252&unsent_bytes=0&cid=f4817a26308b6143&ts=469&x=0"
+
+{
+    "id": 6,
+    "userId": 4,
+    "date": "2020-03-01T00:00:00.000Z",
+    "products": [
+        {
+            "productId": 10,
+            "quantity": 2
+        },
+        {
+            "productId": 12,
+            "quantity": 3
+        }
+    ],
+    "__v": 0
+}
