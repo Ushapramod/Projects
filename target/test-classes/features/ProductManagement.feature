@@ -1,19 +1,22 @@
 Feature: Product Management
-
+@GetAllProducts
   Scenario: Get all products
-    Given I send a request to fetch all products
+    Given I send a request to fetch all products with "GetAllProducts" and with "GET" method
     Then I should receive a list of products in the response
 
+@GetaSingleProduct
   Scenario: Get a single product
-    Given I send a request to fetch product with ID 1
+    Given I send a request to fetch product with ID 1 with "GetaSingleProduct" and with "GET" method
     Then I should receive the details of the product with ID 1
 
+@Limitresults
   Scenario: Limit results when fetching products
-    Given I send a request to fetch 5 products
+    Given I send a request to fetch 5 products with "Limitresults" and with "GET" method
     Then I should receive 5 products in the response
 
+@SortResults1
   Scenario: Sort products in descending order
-    Given I send a request to fetch all products sorted by price in descending order
+    Given I send a request to fetch all products sorted by price in descending order with the "SortResults1" and with "GET" method
     Then I should receive products sorted by price in descending order
 
   Scenario: Get products in a specific category
