@@ -37,14 +37,5 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
-	<classpathentry kind="lib" path="C:/Users/USHA PRAMOD/.m2/repository/io/cucumber/cucumber-core/7.16.1/cucumber-core-7.16.1.jar" sourcepath="C:/Users/USHA PRAMOD/.m2/repository/io/cucumber/cucumber-core/7.16.1/cucumber-core-7.16.1-sources.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="io.cucumber"/>
-			<attribute name="maven.artifactId" value="cucumber-core"/>
-			<attribute name="maven.version" value="7.16.1"/>
-			<attribute name="maven.scope" value="compile"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
