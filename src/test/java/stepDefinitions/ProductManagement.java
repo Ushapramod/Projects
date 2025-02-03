@@ -161,6 +161,7 @@ public class ProductManagement extends Utils {
 		for (Map<String, Object> product : productList) {
 			Object price = product.get("price");
 			System.out.println("Product Price: " + price);
+			System.out.println("Hi my name is usha");
 		}
 	}
 
@@ -174,46 +175,11 @@ public class ProductManagement extends Utils {
 			return ((Integer) price).doubleValue();
 		} else {
 			throw new IllegalArgumentException("Unknown price type: " + price.getClass());
+			
 		}
+		
 	}
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	@Given("I send a request to fetch products in the {string} category")
 	public void i_send_a_request_to_fetch_products_in_the_category(String string) {
 		// Write code here that turns the phrase above into concrete actions
@@ -226,39 +192,6 @@ public class ProductManagement extends Utils {
 		throw new io.cucumber.java.PendingException();
 	}
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	@Given("I send a request to add a new product with title {string}, price {double}, description {string}, and category {string}")
 	public void i_send_a_request_to_add_a_new_product_with_title_price_description_and_category(String string,
 			Double double1, String string2, String string3) {
