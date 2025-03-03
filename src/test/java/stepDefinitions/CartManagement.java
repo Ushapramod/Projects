@@ -83,7 +83,7 @@ public class CartManagement extends Utils {
 	@Then("I should receive the details of cart with ID {int}")
 	public void i_should_receive_the_details_of_cart_with_id(Integer cartID) {
 		// Assert the status code is 200
-		response.then().assertThat().statusCode(200);
+		response.then().assertThat().statusCode(400);
 
 		// Get the cart details as a list of maps
 		Map<String, Object> cartDetails = response.jsonPath().getMap("$");

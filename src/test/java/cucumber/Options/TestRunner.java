@@ -8,8 +8,8 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",  // ✅ Correct path
         glue = "stepDefinitions", 
-        tags = "@SortResults1",
-        plugin = {"pretty", "html:target/cucumber-reports/html", "json:target/cucumber-reports/cucumber.json"}
+        tags = "@Getasinglecart",
+        plugin = {"pretty", "html:target/cucumber-reports/html", "json:target/cucumber-reports/cucumber.json","rerun:target/failed_scenarios.txt"}
 )
 public class TestRunner {
     // Empty class - used to run Cucumber tests
