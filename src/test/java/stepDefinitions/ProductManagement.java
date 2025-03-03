@@ -161,7 +161,7 @@ public class ProductManagement extends Utils {
 		for (Map<String, Object> product : productList) {
 			Object price = product.get("price");
 			System.out.println("Product Price: " + price);
-			System.out.println("Hi my name is usha");
+			
 		}
 	}
 
